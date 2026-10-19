@@ -1,0 +1,13 @@
+resource_group_name  = "rg-app-demo"
+location             = "swedencentral"
+web_app_name         = "app-demo-web-unique"
+app_service_plan_name = "asp-app-demo"
+
+node_version = "20-lts"
+sku_name     = "F1"
+always_on    = false
+
+tags = {
+  environment = "dev"
+  managed_by  = "terraform"
+}
