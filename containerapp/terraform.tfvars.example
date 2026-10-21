@@ -1,0 +1,19 @@
+resource_group_name              = "rg-app-demo"
+location                         = "swedencentral"
+container_app_environment_name   = "cae-app-dev"
+container_app_name               = "ca-app-dev2"
+container_image                  = "mcr.microsoft.com/azuredocs/containerapps-helloworld:latest"
+target_port                      = 80
+external_ingress_enabled         = true
+revision_mode                    = "Single"
+container_cpu                    = 0.25
+container_memory                 = "0.5Gi"
+min_replicas                     = 0
+max_replicas                     = 3
+environment_variables            = {}
+log_analytics_workspace_id       = null
+infrastructure_subnet_id         = null
+tags = {
+  environment = "dev"
+  managed_by  = "terraform"
+}
