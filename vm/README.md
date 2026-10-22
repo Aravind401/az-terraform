@@ -1,9 +1,9 @@
 # Azure Linux Virtual Machine
 
 This folder is a standalone Terraform root configuration. It creates a Linux
-virtual machine using the `Standard_B2ats_v2` size, an ARM-based general-purpose
+virtual machine using the `Standard_B2ats_v2` size, an x64 general-purpose
 size with 2 vCPUs and 4 GiB of memory. The VM uses Canonical Ubuntu 22.04 LTS
-ARM64, a dedicated virtual network and subnet, a Standard public IP, and
+x64 Gen2, a dedicated virtual network and subnet, a Standard public IP, and
 an NSG rule that permits SSH only from a configured IPv4 CIDR. Password
 authentication is disabled; configure an OpenSSH public key to log in.
 

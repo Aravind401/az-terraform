@@ -19,7 +19,7 @@ variable "computer_name" {
 }
 
 variable "vm_size" {
-  description = "Azure VM size. B2ats_v2 is an Arm-based, 2-vCPU, 4-GiB general-purpose size."
+  description = "Azure VM size. B2ats_v2 is an x64, 2-vCPU, 4-GiB general-purpose size."
   type        = string
   default     = "Standard_B2ats_v2"
 }
