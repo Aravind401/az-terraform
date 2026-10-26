@@ -1,6 +1,6 @@
 resource_group_name          = "rg-app-demo"
 location                     = "swedencentral"
-tenant_id                    = "00000000-0000-0000-0000-000000000000"
+tenant_id                    = "9103be33-52a3-4172-b561-d4a4ec9ff3da"
 key_vault_name               = "kv-app-demo-unique"
 sku_name                     = "standard"
 soft_delete_retention_days   = 90
