@@ -9,4 +9,5 @@ This repository contains standalone Terraform configurations for Azure:
 - [containerregistry](./containerregistry/README.md): Azure Container Registry.
 - [keyvault](./keyvault/README.md): Azure Key Vault configured for Azure RBAC authorization.
 - [managedidentity](./managedidentity/README.md): user-assigned managed identity.
+- [storageaccount](./storageaccount/README.md): secure-by-default Azure Storage Account.
 - [vm](./vm/README.md): Ubuntu ARM64 virtual machine (`Standard_B2ats_v2`) with SSH restricted by source CIDR.

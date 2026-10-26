@@ -1,0 +1,11 @@
+resource_group_name      = "rg-app-demo"
+location                 = "swedencentral"
+storage_account_name     = "stappdemounique"
+account_tier             = "Standard"
+account_replication_type = "LRS"
+account_kind             = "StorageV2"
+min_tls_version          = "TLS1_2"
+tags = {
+  environment = "dev"
+  managed_by  = "terraform"
+}

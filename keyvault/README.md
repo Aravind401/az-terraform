@@ -19,7 +19,8 @@ using Azure RBAC.
   `terraform.tfvars` and update the tenant ID, vault name, and region. The real
   `.tfvars` file is ignored by Git.
 - `provider.tf` configures the AzureRM provider.
-- `versions.tf` declares the supported Terraform and AzureRM provider versions.
+- `versions.tf` declares the supported Terraform and AzureRM provider versions
+  (AzureRM 4.0 or later).
 - `outputs.tf` exports the Key Vault ID, name, and URI.
 
 Terraform state can contain sensitive infrastructure data. Protect it, do not
