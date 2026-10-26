@@ -1,0 +1,7 @@
+resource_group_name   = "rg-app-demo"
+location              = "swedencentral"
+managed_identity_name = "id-app-demo"
+tags = {
+  environment = "dev"
+  managed_by  = "terraform"
+}

@@ -1,0 +1,9 @@
+resource_group_name    = "rg-app-demo"
+location               = "swedencentral"
+container_registry_name = "acrappdemounique"
+sku                    = "Basic"
+admin_enabled          = false
+tags = {
+  environment = "dev"
+  managed_by  = "terraform"
+}

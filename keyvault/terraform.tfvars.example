@@ -1,0 +1,11 @@
+resource_group_name          = "rg-app-demo"
+location                     = "swedencentral"
+tenant_id                    = "00000000-0000-0000-0000-000000000000"
+key_vault_name               = "kv-app-demo-unique"
+sku_name                     = "standard"
+soft_delete_retention_days   = 90
+purge_protection_enabled     = true
+tags = {
+  environment = "dev"
+  managed_by  = "terraform"
+}
