@@ -10,7 +10,7 @@ This repository contains standalone Terraform configurations for Azure:
 - [postgresql](./postgresql/README.md): Azure Database for PostgreSQL Flexible Server and database.
 - [kubernetes](./kubernetes/README.md): Azure Kubernetes Service (AKS) cluster.
 - [servicebus](./servicebus/README.md): Azure Service Bus namespace and queue.
-- [rediscache](./rediscache/README.md): Azure Cache for Redis with firewall allow-ranges.
+- [rediscache](./rediscache/README.md): Azure Managed Redis cache.
 - [keyvault](./keyvault/README.md): Azure Key Vault configured for Azure RBAC authorization.
 - [managedidentity](./managedidentity/README.md): user-assigned managed identity.
 - [storageaccount](./storageaccount/README.md): secure-by-default Azure Storage Account.

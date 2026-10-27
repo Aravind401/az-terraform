@@ -6,10 +6,13 @@ resource group. Public network access is enabled, but the server firewall
 allows only the ranges explicitly listed in `allowed_ip_ranges`; an empty
 map denies client IP access.
 
-The server name must be globally unique. The default compute SKU and storage
-are intended for a small development example; confirm regional availability
-and sizing before deployment. The administrator password and Terraform state
-are sensitive. Use a secure remote backend for team or production use.
+The server name must be globally unique. The default `B_Standard_B2s` SKU has
+2 vCores and 4 GiB of memory and is intended for a small development example;
+confirm regional availability and sizing before deployment. Azure capacity
+can vary by region and time. If allocation fails for a SKU, choose another
+available size or region and review any cost and performance changes. The
+administrator password and Terraform state are sensitive. Use a secure remote
+backend for team or production use.
 
 ## Files and configuration
 
