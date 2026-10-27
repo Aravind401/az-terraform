@@ -1,0 +1,20 @@
+resource_group_name    = "rg-app-demo"
+location               = "swedencentral"
+server_name            = "pg-app-demo-unique"
+database_name          = "appdb"
+administrator_login    = "pgadmin"
+administrator_password = "REPLACE_WITH_A_STRONG_PASSWORD"
+postgresql_version     = "16"
+sku_name               = "B_Standard_B1ms"
+storage_mb             = 32768
+backup_retention_days  = 7
+allowed_ip_ranges = {
+  developer = {
+    start_ip_address = "203.0.113.10"
+    end_ip_address   = "203.0.113.10"
+  }
+}
+tags = {
+  environment = "dev"
+  managed_by  = "terraform"
+}

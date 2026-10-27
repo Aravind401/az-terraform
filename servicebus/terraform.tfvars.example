@@ -1,0 +1,9 @@
+resource_group_name = "rg-app-demo"
+location            = "swedencentral"
+namespace_name      = "sb-app-demo-unique"
+queue_name          = "app-queue"
+sku                 = "Standard"
+tags = {
+  environment = "dev"
+  managed_by  = "terraform"
+}

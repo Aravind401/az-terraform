@@ -1,0 +1,16 @@
+resource_group_name = "rg-app-demo"
+location            = "swedencentral"
+cache_name          = "redis-app-demo-unique"
+sku_name            = "Basic"
+family              = "C"
+capacity            = 0
+allowed_ip_ranges = {
+  developer = {
+    start_ip = "203.0.113.10"
+    end_ip   = "203.0.113.10"
+  }
+}
+tags = {
+  environment = "dev"
+  managed_by  = "terraform"
+}
