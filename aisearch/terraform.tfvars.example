@@ -1,0 +1,9 @@
+resource_group_name           = "rg-app-prod"
+location                      = "swedencentral"
+search_service_name           = "search-app-prod-unique"
+sku                           = "basic"
+local_authentication_enabled  = false
+public_network_access_enabled = true
+tags = {
+  environment = "production"
+}

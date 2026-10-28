@@ -15,3 +15,5 @@ This repository contains standalone Terraform configurations for Azure:
 - [managedidentity](./managedidentity/README.md): user-assigned managed identity.
 - [storageaccount](./storageaccount/README.md): secure-by-default Azure Storage Account.
 - [vm](./vm/README.md): Ubuntu ARM64 virtual machine (`Standard_B2ats_v2`) with SSH restricted by source CIDR.
+- [aisearch](./aisearch/README.md): Azure AI Search service.
+- [aifoundry](./aifoundry/README.md): Microsoft Foundry account with project management enabled.

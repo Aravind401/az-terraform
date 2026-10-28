@@ -1,0 +1,10 @@
+resource_group_name           = "rg-app-prod"
+location                      = "swedencentral"
+foundry_name                  = "foundry-app-prod-unique"
+custom_subdomain_name         = "foundry-app-prod-unique"
+sku_name                      = "S0"
+local_auth_enabled            = false
+public_network_access_enabled = true
+tags = {
+  environment = "production"
+}
